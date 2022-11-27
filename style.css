@@ -1,0 +1,223 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* headerr part */
+.main{
+    width: 1024px;
+    margin: auto;
+}
+.main-menu ul{
+margin: 0;
+padding: 0;
+}
+.menu{
+    background-color: black;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    list-style: none;
+}
+.main-menu ul li a{
+    font-size: 15px;
+    color:#b8a59c ;
+    text-decoration: none;
+    padding: 40px 0px;
+    display: block;
+    font-weight: 600;
+}
+.main-menu ul li:hover a{
+    color:#fcf1d5 ;
+}
+.main-menu ul li ul.submenu{
+    position: absolute;
+    background: #222222;
+    width: 200px;
+    top: 103px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.5s;
+}
+.main-menu ul li:hover ul.submenu{
+    opacity: 1;
+    visibility: visible;
+}
+.main-menu ul li ul li:hover a{
+    background-color:#4270d2 ;
+    transition: 0.5s;
+}
+.main-menu ul li ul.submenu li{
+    display: block;
+    margin-left: 0px;
+}
+.main-menu ul li ul.submenu li a{
+    padding: 10px 15px;
+}
+.main-menu ul li ul.submenu li ul.submenu{
+    top: 0;
+    left: 100%;
+}
+.main-menu ul li ul.submenu li ul.submenu li:hover a{
+    background-color: #232321;
+}
+/* chobi part */
+.chobi{
+    background-image: url(https://i.ibb.co/CPLLdHX/young-mens.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.chobi h2{
+    padding: 5px 15px;
+    display: inline-block;
+    background-color: aliceblue;
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
+.chobi h4{
+    background-color: aliceblue;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    top: 32%;
+    left: 0%;
+}
+.chobi a{
+    background-color: red;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 2px solid red;
+    position: relative;
+    top: 40%;
+    left: 0%;
+}
+.chobi a:hover{
+    background-color: aliceblue;
+}
+/* list styl outside */
+.outside-main{
+   height: 470px; 
+}
+.outside{
+    margin-top: 15px;
+    background-color: white;
+    border-top: 1px solid wheat;
+    border-right:1px solid wheat ;
+}
+.outside h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.outside ul li{
+    text-align: center;
+    list-style-position: outside;
+}
+.sub{
+    padding: 0px 5px;
+}
+/* list styl insid */
+.inside-main{
+    height: 470px;
+}
+.inside{
+    margin-top: 15px;
+    border: 1px solid white;
+    box-shadow: 1px 3px 15px 10px whitesmoke;
+    
+}
+.inside h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.inside ul li{
+    list-style-position: inside;
+}
+
+/* subscribe startt */
+.subscribe{
+    border: 1px solid whitesmoke;
+    margin-top: 15px;
+    text-align: center;
+    padding: 50px 0px;
+    background-color: aliceblue;
+}
+.wow{
+    width: 500px;
+    border: 2px solid white;
+    border-bottom: 2px solid red;
+}
+.bow{
+    width: 120px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 2px;
+}
+.bow:hover{
+    background-color: white;
+}
+/* list styl startt */
+.popolar{
+    text-align: center;
+    /* margin: auto; */
+}
+.popolar1{
+    margin-top: 30px;
+    border:2px dotted white;
+    background-color: aliceblue;
+}
+.popolar1 h3{
+    padding: 30px;
+    text-align: center;
+}
+.list1{
+    display: inline-block;
+}
+.list1 li{
+    list-style-type: lower-roman;
+}
+.list2{
+    display: inline-block;
+}
+.list3{
+    display: inline-block;
+}
+.list3 li{
+    list-style-type: lower-greek;
+}
+/* footerrr start */
+.foter{
+    background-color: black;
+    /* text-align: center; */
+}
+.foter p{
+    padding-top:10px ;
+    color: aliceblue;
+}
+.icon li{
+    display: inline-block;
+    padding:5px;
+    margin: 0px 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #30455f;
+}
+.icon li:hover{
+    background-color: blue;
+}
+.icon ul {
+    padding-bottom: 10px;
+}
+
+
+
+
